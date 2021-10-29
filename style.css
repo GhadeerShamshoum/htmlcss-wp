@@ -87,23 +87,24 @@ main::after{
 }
 
 .section.left, .section.center, section.right{
-    border-radius: 7px;
     position: relative;
-    overflow: hidden;
+    border-radius: 5px;
 }
 
 .img-container{
     height: 200px;
     margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+
 }
 
 .section.left img, 
 .section.center img{
-    height: 100%;
-    background-image: url(img/img-1.jpg);
-    background-size: cover;
-    background-position:center;  
-    overflow: hidden; 
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top:0:
 }
 
 main .layover-img1{
@@ -114,6 +115,7 @@ main .layover-img1{
     background-color: rgba(0, 0 ,0 , 0.3);
 }
 
+
 .section.left,
 .section.center,
 .section.right{
@@ -122,12 +124,12 @@ main .layover-img1{
 }
 
 .section.left, .section.right{
-    width: 20% ;
+    width: 18% ;
 }
 
 .section.center{
     width: 58%;
-    margin: 0 1%;
+    margin: 0 3%;
 }
 
 footer{
