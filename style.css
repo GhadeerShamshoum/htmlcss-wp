@@ -86,24 +86,31 @@ main::after{
     width: 100%;
 }
 
+.section.left, .section.center, section.right{
+    border-radius: 7px;
+    position: relative;
+    overflow: hidden;
+}
+
 .img-container{
     height: 200px;
+    margin-bottom: 10px;
 }
 
 .section.left img, 
 .section.center img{
     height: 100%;
-    border-radius: 7%;
     background-image: url(img/img-1.jpg);
     background-size: cover;
     background-position:center;  
     overflow: hidden; 
-    position: relative; 
 }
 
 main .layover-img1{
     width: 100%;
-    height: 100%;
+    height: 200px;
+    position: absolute;
+    top:0;
     background-color: rgba(0, 0 ,0 , 0.3);
 }
 
