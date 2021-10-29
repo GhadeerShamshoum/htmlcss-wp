@@ -85,6 +85,12 @@ main::after{
 .section.up img{
     width: 100%;
 }
+.section.left,
+.section.center,
+.section.right{
+    float: left;
+    margin-bottom: 15px;
+}
 
 .section.left, .section.center, section.right{
     position: relative;
@@ -100,9 +106,9 @@ main::after{
 }
 
 .section.left img, 
-.section.center img{
+.section.center img
+.section.right img{
     width: 100%;
-    margin: auto;
     position: absolute;
     top:0:
 }
@@ -112,16 +118,10 @@ main .layover-img1{
     height: 200px;
     position: absolute;
     top:0;
-    background-color: rgba(0, 0 ,0 , 0.3);
+    background-color: rgba(0, 0 ,0 , 0.2);
 }
 
 
-.section.left,
-.section.center,
-.section.right{
-    float: left;
-    margin-bottom: 15px;
-}
 
 .section.left, .section.right{
     width: 18% ;
@@ -133,7 +133,10 @@ main .layover-img1{
 }
 
 footer{
-    height: 90px;
-    background-color: blueviolet;
+    text-align: center;
+}
+
+.heart{
+    color:red;
 }
 
