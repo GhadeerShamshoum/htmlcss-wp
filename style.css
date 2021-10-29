@@ -92,14 +92,13 @@ main::after{
     margin-bottom: 15px;
 }
 
-.section.left, .section.center, section.right{
+.section.left, .section.center, .section.right{
     position: relative;
     border-radius: 5px;
 }
 
 .img-container{
     height: 200px;
-    margin-bottom: 10px;
     overflow: hidden;
     position: relative;
 
