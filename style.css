@@ -86,17 +86,26 @@ main::after{
     width: 100%;
 }
 
-main .section.left{
-    background-image: url(img/img-1.jpg);
+.img-container{
+    height: 200px;
 }
 
-main.section.left .layover-img1{
+.section.left img, 
+.section.center img{
+    height: 100%;
+    border-radius: 7%;
+    background-image: url(img/img-1.jpg);
+    background-size: cover;
+    background-position:center;  
+    overflow: hidden; 
+    position: relative; 
+}
+
+main .layover-img1{
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0 ,0 , 0.3);
 }
-
-
 
 .section.left,
 .section.center,
@@ -111,7 +120,6 @@ main.section.left .layover-img1{
 
 .section.center{
     width: 58%;
-    height: 400px ;
     margin: 0 1%;
 }
 
