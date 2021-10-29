@@ -94,15 +94,33 @@ main::after{
 
 .section.left, .section.center, .section.right{
     position: relative;
-    border-radius: 5px;
 }
 
 .img-container{
     height: 200px;
-    overflow: hidden;
     position: relative;
-
+    border-radius: 5px;
+    overflow: hidden;
 }
+
+#img1, #img2, #img3{
+    height: 100%;
+    background-size: cover; 
+    background-position: center;
+}
+
+#img1{
+    background-image: url(img/img-1.jpg);  
+}
+
+#img2{
+    background-image: url(img/banner-2.jpg);  
+}
+
+#img3{
+    background-image: url(img/img-3.jpg);
+}
+
 
 .section.left img, 
 .section.center img
